@@ -21,6 +21,8 @@ class Accordion extends Component {
             <article>
                 <div className="question">
                     <h3>{this.props.question}</h3>
+                    {/* //versión 2:
+                    <h3>{this.props.faq.question}</h3> */}
                     <button onClick={this.handleIsVisible}>+</button>
                 </div>
 
